@@ -1,0 +1,41 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	padding: 10px;
+}
+
+.center {
+	padding: 10px;
+	width: 622px;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background-color: #ebebeb;
+}
+
+.title {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.present {
+	margin-bottom: 20px;
+}
+
+img {
+	display: block;
+	box-shadow: 0 0 5px rgba(0,0,0,0.9);
+	cursor: zoom-in;
+}
+
+.thumbnail {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10px;
+}
